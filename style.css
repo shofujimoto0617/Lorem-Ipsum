@@ -36,3 +36,26 @@ header {
 	color: #FAFAFA;
 	font-size: 16px;
 }
+
+.main-visual {
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: 100% 100%;
+}
+
+.title {
+	font-size: 64px;
+	color: #FAFAFA;
+	padding-top: 200px;
+	text-align: center;
+}
+
+.text {
+	font-size: 20px;
+	color: #fafafa;
+	padding-top: 10px;
+	text-align: center;
+}
+
+
