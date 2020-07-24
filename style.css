@@ -58,4 +58,92 @@ header {
 	text-align: center;
 }
 
+.portfolio {
+	width: 100%;
+	background-color: #eceff1;
+}
 
+.container {
+	width: 920px;
+	margin: 0 auto;
+}
+
+.heading {
+	font-size: 32px;
+	color: #000000;
+	padding: 90px 0 8px;
+	text-align: center;
+}
+
+.heading-text {
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.production-group {
+	width: 960px;
+	padding-bottom: 90px;
+}
+
+.production-img1 {
+	background-image: url(img/sketch.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 250px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.production-img2 {
+	background-image: url(img/websuku.png);
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 250px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.production-img3 {
+	background-image: url(img/write.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 250px;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.production-img4 {
+	background-image: url(img/webcamp.png);
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 250px;
+	float: left;
+	margin-right: 10px;
+}
+
+.production-img5 {
+	background-image: url(img/talk.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+
+.production-img6 {
+	background-image: url(img/webcamp-mother.png);
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 250px;
+	float: left;
+	margin-left: 10px;
+}
