@@ -13,6 +13,7 @@
 header {
 	height: 70px;
 	width: 100%;
+	line-height: 70px;
 	background-color: #EC715F;
 }
 
@@ -43,6 +44,10 @@ header {
 	background-image: url(img/mv.png);
 	background-size: 100% 100%;
 }
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
 
 .title {
 	font-size: 64px;
@@ -71,8 +76,17 @@ header {
 .heading {
 	font-size: 32px;
 	color: #000000;
-	padding: 90px 0 8px;
+	padding-top: 90px;
 	text-align: center;
+}
+
+.heading::after {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #ec715f;
 }
 
 .heading-text {
@@ -150,27 +164,13 @@ header {
 
 .feature {
 	width: 100%;
-	padding: 90px 0;
+	padding-bottom: 90px;
 }
 
 .container2 {
 	width: 980px;
 	margin: 0 auto;
 	padding-bottom: 30px;
-}
-
-.heading2 {
-	text-align: center;
-	padding-bottom: 8px;
-	font-size: 32px;
-	color: #000000;
-}
-
-.heading-text2 {
-	text-align: center;
-	padding: 30px 0;
-	font-size: 16px;
-	color: #000000;
 }
 
 .strength-group {
@@ -183,19 +183,23 @@ header {
 	margin: 0 auto;
 	float: left;
 	margin-right: 10px;
+	text-align: center;
 }
 
 .strength:last-child {
 	margin-right: 0;
 }
 
-.strength i {
+.icon {
 	font-size: 60px;
 }
 .strength-title {
 	font-size: 20px;
 	margin: 10px 0;
 	text-align: center;
+}
+.strength-text {
+	text-align: justify;
 }
 
 .profile {
@@ -207,21 +211,6 @@ header {
 	width: 1024px;
 	margin: 0 auto;
 	padding-bottom: 90px;
-}
-
-.heading3 {
-	font-size: 32px;
-	color: #000000;
-	padding-top: 90px;
-	padding-bottom: 8px;
-	text-align: center;
-}
-
-.heading-text3 {
-	font-size: 16px;
-	color: #000000;
-	text-align: center;
-	padding-bottom: 30px;
 }
 
 .profile-group {
@@ -281,24 +270,10 @@ header {
 	padding-bottom: 90px;
 }
 
-.headig4 {
-	font-size: 32px;
-	color: #000000;
-	padding-top: 90px;
-	padding-bottom: 8px;
-	text-align: center;
-}
-
-.heading-text4 {
-    font-size: 16px;
-	color: #000000;
-	text-align: center;
-	padding-bottom: 30px;
-}
-
 .contact-group {
-	width: 800px;
 	display: inline-block;
+	margin: 0 auto;
+    height: 100px;
 }
 
 .left-content2 {
@@ -308,7 +283,7 @@ header {
 }
 
 .left-contact-content {
-	width: 200px;
+	width: 130px;
 	margin: 0 auto;
 }
 
@@ -329,12 +304,22 @@ header {
 }
 
 .right-contact-content {
-	width: 200px;
+	width: 190px;
 	margin: 0 auto;
 }
 
 .discriotion-title3 {
 	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.sns {
+	margin-right: 20px;
+    font-size: 50px;
+}
+
+.sns:last-child {
+	margin-right: 0;
 }
 
 footer {
@@ -350,3 +335,115 @@ footer {
     color: #fafafa;
 }
 
+@media screen and (max-width:767px) {
+  header {
+  	width: 100%;
+  }
+  .headline {
+    width: 90%;
+  }
+
+  .container {
+  	width: 90%;
+  }
+  .container1 {
+  	width: 90%;
+  }
+  .production-group {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .production-img1 {
+  	float: none;
+  	margin: 0 auto 10px;
+  }
+  .production-img2 {
+  	float: none;
+  	margin: 5px auto;
+  }
+  .production-img3 {
+  	float: none;
+  	margin: 5px auto;
+  }
+  .production-img4 {
+  	float: none;
+  	margin: 5px auto;
+  }
+  .production-img5 {
+  	float: none;
+  	margin: 5px auto;
+  }
+  .production-img6 {
+  	float: none;
+  	margin: 5px auto 0;
+  }
+
+  .container2 {
+  	width: 90%;
+  }
+  .strength-group {
+  	width: 90%;
+  }
+  .strength {
+  	float: none;
+  	margin: 0 auto;
+  }
+  .strength:last-child {
+  	margin: 0 auto;
+  }
+
+  .container3 {
+  	width: 90%;
+  	margin: 0 auto;
+  }
+  .profile-group {
+  	width: 90%;
+  	margin: 0 auto;
+  }
+  .left-content {
+  	width: 90%;
+  	float: none;
+  	margin: 0 auto;
+  }
+  .my-face {
+  	margin: 0 auto;
+  }
+  .right-content {
+  	width: 90%;
+  	float: none;
+  	margin: 0 auto;
+  }
+  .discription-title {
+  	text-align: center;
+  }
+  .discription-text {
+  	text-align: center;
+  }
+
+  .container4 {
+  	width: 90%;
+  }
+  .contact-group {
+  	width: 100%;
+  	margin : 0 auto;
+  	height: 0;
+  }
+  .left-content2 {
+  	width: 100%;
+  	float: none;
+  	margin: 0 auto;
+  }
+  .right-content2 {
+  	width: 90%;
+  	float: none;
+  	margin: 0 auto;
+  }
+  .discription-title2 {
+  	text-align: center;
+  }
+  .discription-text2 {
+  	text-align: center;
+  }
+
+
+}
