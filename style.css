@@ -198,3 +198,76 @@ header {
 	text-align: center;
 }
 
+.profile {
+	width: 100%;
+	background-color: #eceff1;
+}
+
+.container3 {
+	width: 1024px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+
+.heading3 {
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+.heading-text3 {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.profile-group {
+	width: 1024px;
+	display: inline-block;
+}
+
+.left-content {
+	width: 512px;
+	float: left;
+	padding-top: 30px;
+}
+
+.my-face {
+	width: 250px;
+	height: 250px;
+	background-image: url(img/my-icon.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 150px;
+}
+
+.right-content {
+	width: 512px;
+	float: left;
+}
+
+.discription-title {
+	font-size: 20px;
+	padding-top: 30px;
+}
+
+.discription-text {
+	font-size: 16px;
+	color: #000000;
+	padding-top: 5px;
+}
+
+.discription-title:last-child {
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.discription-text:last-child {
+	font-size: 16px;
+	color: #000000;
+	padding-top: 5px;
+}
+
