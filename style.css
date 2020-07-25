@@ -271,3 +271,69 @@ header {
 	padding-top: 5px;
 }
 
+.contact {
+	width: 100%;
+}
+
+.container4 {
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+
+.headig4 {
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+.heading-text4 {
+    font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.contact-group {
+	width: 800px;
+	display: inline-block;
+}
+
+.left-content2 {
+	width: 400px;
+	padding-top: 30px;
+	float: left;
+}
+
+.left-contact-content {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.discription-title2 {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.discription-text2 {
+	font-size: 20px;
+	padding: 20px 0 5px;
+}
+
+.right-content2 {
+	width: 400px;
+	padding-top: 30px;
+	float: left;
+}
+
+.right-contact-content {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.discriotion-title3 {
+	font-size: 20px;
+}
+
